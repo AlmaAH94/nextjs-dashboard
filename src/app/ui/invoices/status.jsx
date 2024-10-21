@@ -30,7 +30,7 @@ export default function InvoiceStatus({ status }) {
           Late
           <ClockIcon className="ml-1 w-4 text-white" />
         </>
-      ):}
+      ) : null}
     </span>
-    );
+  );
 }
